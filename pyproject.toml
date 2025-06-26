@@ -1,0 +1,17 @@
+[project]
+name = "mcp-server-github"
+version = "0.1.0"
+description = "A FastAPI-based MCP server for GitHub automation"
+authors = [
+    { name="Your Name", email="your@email.com" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "PyGithub",
+    "python-dotenv"
+]
+requires-python = ">=3.8"
+
+[tool.uv]
+# Optional: UV-specific settings can go here 
